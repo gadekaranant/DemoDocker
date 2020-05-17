@@ -30,7 +30,7 @@ ________________________
 
 ### Docker vs VMs
 
-![Docker vs traditional Virtualization](https://insights.sei.cmu.edu/assets/content/VM-Diagram.png)
+![Docker vs traditional Virtualization](https://raw.githubusercontent.com/billanant/DemoDocker/gh-pages/img/dockerVsVM.png)
 
 ---
 
