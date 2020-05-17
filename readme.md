@@ -494,11 +494,16 @@ There are known best practices (see a list at [examples/tips](https://github.com
 
 ![Pythons over Docker!](https://raw.githubusercontent.com/theodorosploumis/docker-presentation/gh-pages/img/docker_logo.png)
 
-[Review this presentation](https://goo.gl/lkau9t)
+[FEEL FREE TO ASK]
 
-> Next: Docker in production, Scaling, Private registries, PaaS.
+> Feel Free to Ask.
+>Contact: Anant Gadekar 
+           System Engineer in STL
+>Email: gadekar.anant@gmail.com
+>Mobile: +91 9970956687
+>LinkedIn: https://www.linkedin.com/in/anant-gadekar-22857319/
 
-###### In this presentation I have used [oh my zsh](http://ohmyz.sh/), [docker 1.11.1](https://github.com/docker/docker/releases/tag/v1.11.1), [wharfee](https://github.com/j-bennet/wharfee) and [dry](https://github.com/moncho/dry).
+
 
 ---
 
