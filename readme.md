@@ -1,4 +1,4 @@
-![Docker logo](https://github.com/billanant/DemoDocker/blob/gh-pages/img/docker_logo.png)
+![Docker logo](https://raw.githubusercontent.com/billanant/DemoDocker/gh-pages/img/docker_logo.png)
 
 ## Docker - Containerization Platform
 
@@ -91,7 +91,7 @@ ________________________
 
 ### The Docker architecture
 
-![Docker architecture](https://github.com/billanant/DemoDocker/blob/gh-pages/img/architecture.svg)
+![Docker architecture](https://raw.githubusercontent.com/billanant/DemoDocker/29c8b382cf0e9a0fe3d4c0f02173196778543fe7/img/architecture.svg)
 ###### See more at [Understanding docker](https://docs.docker.com/engine/understanding-docker/)
 
 ---
@@ -183,7 +183,7 @@ docker run -i -t -d centos /bin/bash
 
 ### The docker image
 
-![Centos:latest image](https://github.com/billanant/DemoDocker/blob/gh-pages/img/image-layers.jpg "A read-only layer that is the base of your container. It can have a parent image to abstract away the more basic filesystem snapshot. Each Docker image references a list of read-only layers that represent filesystem differences. Layers are stacked on top of each other to form a base for a container’s root filesystem.")
+![Centos:latest image](https://raw.githubusercontent.com/billanant/DemoDocker/gh-pages/img/image-layers.jpg "A read-only layer that is the base of your container. It can have a parent image to abstract away the more basic filesystem snapshot. Each Docker image references a list of read-only layers that represent filesystem differences. Layers are stacked on top of each other to form a base for a container’s root filesystem.")
 
 ---
 
@@ -493,9 +493,7 @@ There are known best practices (see a list at [examples/tips](https://github.com
 ### Questions?
 
 ![Pythons over Docker!](https://raw.githubusercontent.com/theodorosploumis/docker-presentation/gh-pages/img/docker_logo.png)
-- Contact: Anant Gadekar    --System Engineer in STL
-- Email: gadekar.anant@gmail.com
-- Mobile: +91 9970956687
+
 - LinkedIn: https://www.linkedin.com/in/anant-gadekar-22857319/
 
 
@@ -513,4 +511,3 @@ There are known best practices (see a list at [examples/tips](https://github.com
 - [Docker Play](https://labs.play-with-docker.com/)
 - [Katacoda Lab](https://www.katacoda.com/courses/docker)
 - [Learn Docker](https://learndocker.online/)
-
