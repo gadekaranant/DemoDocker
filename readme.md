@@ -230,7 +230,6 @@ docker rm [CONTAINER]
 ### Docker examples
 
 - SSH into a container
-- Build an image
 - Docker [Volume](https://docs.docker.com/engine/userguide/containers/dockervolumes/)
 - [Linked](https://docs.docker.com/engine/userguide/networking/default_network/dockerlinks/) containers
 - Using [docker-compose](https://docs.docker.com/compose/)
@@ -244,25 +243,8 @@ docker rm [CONTAINER]
 ### Example: SSH into a container
 
 ```
-docker pull ubuntu
-docker run -it --name ubuntu_example ubuntu /bin/bash
-```
-
----
-
-### Example: Build an Image
-
-Let's build a [jenkins image](https://github.com/komljen/dockerfile-examples/blob/master/jenkins/Dockerfile)
-
-```
-cd ~/Docker-presentation
-git clone git@github.com:komljen/dockerfile-examples.git.git
-cd dockerfile-examples/jenkins
-docker build -t jenkins-local .
-
-// Test it
-docker run -d -p 8099:8080 --name jenkins_example jenkins-local
-// Open http://localhost:8099
+docker pull centos
+docker run -it --name centos_example centos /bin/bash
 ```
 
 ---
@@ -273,18 +255,17 @@ Let's use [Apache server](https://bitbucket.org/EdBoraas/apache-docker/src/)
 
 ```
 cd ~/Docker-presentation
-mkdir apache-example
-cd apache-example
+mkdir /home/anant/demo
+cd demo
 
 docker pull eboraas/apache
-docker run --name apache_volume_example \
-           -p 8180:80 -p 443:443 \
-           -v $(pwd):/var/www/ \
-           -d eboraas/apache
+docker run -it -d --name=myos 
+    -p 8180:80 
+    -v /home/anant/demo:/usr/local/apache2/htdocs 
+    httpd:2.4
 
 // Locally create an index.html file
-mkdir html
-cd html
+
 echo "It works using mount." >> index.html
 
 // Open http://localhost:8180 to view the html file
@@ -294,32 +275,40 @@ echo "It works using mount." >> index.html
 
 ### Example: Docker link containers
 
-Let's create a [Drupal app](https://hub.docker.com/_/drupal/) (apache, php, mysql, drupal)
+Let's create a Wordpress (apache, php, mysql, wordpress)
 
 ```
 cd ~/Docker-presentation
-mkdir drupal-link-example
-cd drupal-link-example
+mkdir /home/anant/mysqldata and mkdir /home/anant/wordpress
+cd wordpress
+copy wordpress.tar
 
-docker pull drupal:8.0.6-apache
+docker load -i wordpress.tar
+
+docker volume create mysql_storage
 docker pull mysql:5.5
 
 // Start a container for mysql
-docker run --name mysql_example \
-           -e MYSQL_ROOT_PASSWORD=root \
-           -e MYSQL_DATABASE=drupal \
-           -e MYSQL_USER=drupal \
-           -e MYSQL_PASSWORD=drupal \
-           -d mysql:5.5
+docker run --name mysql1 -it -d  
+      -e MYSQL_USER=user1 
+      -e MYSQL_PASSWORD=test 
+      -e MYSQL_DATABASE=mydata1 
+      -e MYSQL_ROOT_PASSWORD=redhat 
+      -v mysql_storage:/var/lib/mysql 
+      mysql:5.7
 
-// Start a Drupal container and link it with mysql
+// Start a Wordpress container and link it with mysql
 // Usage: --link [name or id]:alias
-docker run -d --name drupal_example \
-           -p 8280:80 \
-           --link mysql_example:mysql \
-           drupal:8.0.6-apache
+docker run -it -d 
+      -e WORDPRESS_DB_HOST=mysql1 
+      -e WORDPRESS_DB_PASSWORD=redhat 
+      -e WORDPRESS_DB_NAME=mydata1 
+      -p 8081:80 
+      -v /home/anant/wordpress/html:/var/www/html 
+      --link mysql1 
+      wordpress
 
-// Open http://localhost:8280 to continue with the installation
+// Open http://localhost:8081 to continue with the installation
 // On the db host use: mysql
 
 // There is a proper linking
@@ -516,7 +505,7 @@ There are known best practices (see a list at [examples/tips](https://github.com
 ### Bonus!
 
 >Online lab for Docker 
->Docker Play(https://labs.play-with-docker.com/)
->katacoda Lab(https://www.katacoda.com/courses/docker)
->(Learn Dockerhttps://learndocker.online/)
+>[Docker Play](https://labs.play-with-docker.com/)
+>[Katacoda Lab](https://www.katacoda.com/courses/docker)
+>[Learn Docker](https://learndocker.online/)
 
