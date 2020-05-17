@@ -506,8 +506,11 @@ There are known best practices (see a list at [examples/tips](https://github.com
 
 ### Bonus!
 
+
 >Online lab for Docker 
->[Docker Play](https://labs.play-with-docker.com/)
->[Katacoda Lab](https://www.katacoda.com/courses/docker)
->[Learn Docker](https://learndocker.online/)
+
+
+- [Docker Play](https://labs.play-with-docker.com/)
+- [Katacoda Lab](https://www.katacoda.com/courses/docker)
+- [Learn Docker](https://learndocker.online/)
 
