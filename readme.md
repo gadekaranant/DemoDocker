@@ -20,7 +20,7 @@ ________________________
 
 ---
 
-### What is Docker (v1.11)
+### What is Docker
 
 > Docker is an open platform for developing, shipping, and running applications.
 
