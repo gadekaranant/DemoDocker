@@ -13,10 +13,39 @@ ________________________
 
 ### Let me ask you
 
+- Why Docker?
 - Who knows about [Docker](http://docker.com)?
 - Who uses Docker for development?
 - Who uses Docker in production?
 - Who tried but could not do it?
+
+---
+
+### Why Docker - 
+> Traditional Trasport
+
+![Traditional Transport](https://raw.githubusercontent.com/billanant/DemoDocker/gh-pages/img/cargo.png)
+
+---
+
+### Traditional Trasport Solution
+
+
+![Traditional Transport Solution ](https://raw.githubusercontent.com/billanant/DemoDocker/gh-pages/img/cargosolution.png)
+
+---
+
+### Traditional Application
+
+
+![Traditional Application ](https://raw.githubusercontent.com/billanant/DemoDocker/gh-pages/img/dockersolution.png)
+
+---
+
+### Traditional Application Solution
+
+
+![Traditional Application Solution ](https://raw.githubusercontent.com/billanant/DemoDocker/gh-pages/img/cargosolution.png)
 
 ---
 
