@@ -127,7 +127,7 @@ ________________________
 
 ### The Docker architecture
 
-![Docker architecture](https://raw.githubusercontent.com/billanant/DemoDocker/29c8b382cf0e9a0fe3d4c0f02173196778543fe7/img/architecture.svg)
+![Docker architecture](https://raw.githubusercontent.com/gadekaranant/DemoDocker/gh-pages/img/architecture.svg)
 ###### See more at [Understanding docker](https://docs.docker.com/engine/understanding-docker/)
 
 ---
