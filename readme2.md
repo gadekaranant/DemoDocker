@@ -2,11 +2,14 @@
 
 ## Docker - Containerization Platform
 
-#### [P.Dr.V.V.P. College of Engineering, Ahmednagar](http://enggnagar.com/), 23 May 2020
+#### Webinar at 
+
+### [P.Dr. V. V. P. College of Engineering, Ahmednagar](http://enggnagar.com/), 
+#### 23 May 2020
 
 #### [Anant Gadekar](https://www.linkedin.com/in/anant-gadekar-22857319/) 
 ###### System Engineer(DevOps Engineer) STL - Sterlite Technology Limited 
-##### RHCSA, RHCE, Docker, K8S, Openshift Administrator, AWS, Coporate Trainer
+###### RHCSA, RHCE, Docker, K8S, Openshift Administrator, AWS, Coporate Trainer
 ________________________
 
 
