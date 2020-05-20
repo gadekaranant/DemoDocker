@@ -4,11 +4,11 @@
 
 #### Webinar at 
 
-### [P.Dr. V. V. P. College of Engineering, Ahmednagar](http://enggnagar.com/), 
+### [P.Dr. V. V. P. College of Engineering, Ahmednagar](http://enggnagar.com/)
 
 
 #### [Anant Gadekar](https://www.linkedin.com/in/anant-gadekar-22857319/) 
-###### System Engineer(DevOps Engineer) STL - Sterlite Technology Limited 
+##### System Engineer(DevOps Engineer) STL - Sterlite Technology Limited 
 #### RHCSA, RHCE, Docker, K8S, Openshift Administrator, AWS, Coporate Trainer
 ________________________
 
