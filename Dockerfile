@@ -1,5 +1,5 @@
 FROM nimmis/alpine-apache
-MAINTAINER Theodoros Ploumis <me@theodorosploumis.com>
+MAINTAINER Anant Gadekar <gadekar.anant@gmail.com>
 
 # Add the whole repo.
 ADD . /web/html
