@@ -1,4 +1,4 @@
-![Docker logo](https://raw.githubusercontent.com/billanant/DemoDocker/gh-pages/img/docker_logo.png)
+![Docker logo](https://raw.githubusercontent.com/gadekaranant/DemoDocker/gh-pages/img/docker_logo.png)
 
 ## Docker - Containerization Platform
 
@@ -31,28 +31,28 @@ ________________________
 ### Why Docker - 
 > Traditional Trasport
 
-![Traditional Transport](https://raw.githubusercontent.com/billanant/DemoDocker/gh-pages/img/cargo.png)
+![Traditional Transport](https://raw.githubusercontent.com/gadekaranant/DemoDocker/gh-pages/img/cargo.png)
 
 ---
 
 ### Traditional Trasport Solution
 
 
-![Traditional Transport Solution ](https://raw.githubusercontent.com/billanant/DemoDocker/gh-pages/img/cargosolution.png)
+![Traditional Transport Solution ](https://raw.githubusercontent.com/gadekaranant/DemoDocker/gh-pages/img/cargosolution.png)
 
 ---
 
 ### Traditional Application
 
 
-![Traditional Application ](https://raw.githubusercontent.com/billanant/DemoDocker/gh-pages/img/dockersolution.png)
+![Traditional Application ](https://raw.githubusercontent.com/gadekaranant/DemoDocker/gh-pages/img/dockersolution.png)
 
 ---
 
 ### Traditional Application Solution
 
 
-![Traditional Application Solution ](https://raw.githubusercontent.com/billanant/DemoDocker/gh-pages/img/cargosolution.png)
+![Traditional Application Solution ](https://raw.githubusercontent.com/gadekaranant/DemoDocker/gh-pages/img/cargosolution.png)
 
 ---
 
@@ -66,7 +66,7 @@ ________________________
 
 ### Docker vs VMs
 
-![Docker vs traditional Virtualization](https://raw.githubusercontent.com/billanant/DemoDocker/gh-pages/img/dockerVsVM.png)
+![Docker vs traditional Virtualization](https://raw.githubusercontent.com/gadekaranant/DemoDocker/gh-pages/img/dockerVsVM.png)
 
 ---
 
@@ -219,7 +219,7 @@ docker run -i -t -d centos /bin/bash
 
 ### The docker image
 
-![Centos:latest image](https://raw.githubusercontent.com/billanant/DemoDocker/gh-pages/img/image-layers.jpg "A read-only layer that is the base of your container. It can have a parent image to abstract away the more basic filesystem snapshot. Each Docker image references a list of read-only layers that represent filesystem differences. Layers are stacked on top of each other to form a base for a container’s root filesystem.")
+![Centos:latest image](https://raw.githubusercontent.com/gadekaranant/DemoDocker/gh-pages/img/image-layers.jpg "A read-only layer that is the base of your container. It can have a parent image to abstract away the more basic filesystem snapshot. Each Docker image references a list of read-only layers that represent filesystem differences. Layers are stacked on top of each other to form a base for a container’s root filesystem.")
 
 ---
 
@@ -228,7 +228,7 @@ docker run -i -t -d centos /bin/bash
 
 > A Dockerfile is a text document that contains all the commands a user could call on the command line to create an image.
 
- - [Dockerfile with inline comments](https://github.com/billanant/DemoDocker/blob/gh-pages/examples/dockerfile/Dockerfile) just for education
+ - [Dockerfile with inline comments](https://github.com/gadekaranant/DemoDocker/blob/gh-pages/examples/dockerfile/Dockerfile) just for education
  - [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) on docker docs
  - Official Dockerfiles ([rails](https://github.com/docker-library/rails/blob/master/Dockerfile), [nodejs](https://github.com/ReadyTalk/nodejs-docker/blob/master/base/Dockerfile), [django](https://github.com/docker-library/django/blob/master/3.4/Dockerfile), [Drupal](https://github.com/docker-library/drupal/blob/master/8.1/fpm/Dockerfile))
 
@@ -436,5 +436,6 @@ There are known best practices (see a list at [examples/tips](https://github.com
 - [Docker Play](https://labs.play-with-docker.com/)
 - [Katacoda Lab](https://www.katacoda.com/courses/docker)
 - [Learn Docker](https://learndocker.online/)
+
 
 
