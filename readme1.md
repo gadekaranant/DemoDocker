@@ -15,27 +15,24 @@ ________________________
 
 - Why Docker?
 - Who knows about [Docker](http://docker.com)?
-- Who uses Docker for development?
-- Who uses Docker in production?
-- Who tried but could not do it?
-Why Docker?- What is containerization?
-	Traditional Trasport
-	Traditional Trasport Solution
-	Traditional Application
-	Traditional Application Solution
-Who knows about Docker?
-	Docker vs VMs
-	Docker History
-	Docker Benefits
-	Common Docker usages
-	The Docker architecture
-	Docker components
-Steps of a Docker workflow
-Common Docker Commands
-Docker examples
-Docker Alternatives
-Instead of Resources
-Online Lab
+- Why Docker?- What is containerization?
+	- Traditional Trasport
+	- Traditional Trasport Solution
+	- Traditional Application
+	- Traditional Application Solution
+- Who knows about Docker?
+	- Docker vs VMs
+	- Docker History
+	- Docker Benefits
+	- Common Docker usages
+	- The Docker architecture
+	- Docker components
+- Steps of a Docker workflow
+- Common Docker Commands
+- Docker examples
+- Docker Alternatives
+- Instead of Resources
+- Online Lab
 
 
 ---
