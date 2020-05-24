@@ -55,7 +55,7 @@ ________________________
 ### Traditional Application Solution
 
 
-![Traditional Application Solution ](https://raw.githubusercontent.com/gadekaranant/DemoDocker/gh-pages/img/cdockersolution.png)
+![Traditional Application Solution ](https://raw.githubusercontent.com/gadekaranant/DemoDocker/gh-pages/img/dockersolution.png)
 
 ---
 
