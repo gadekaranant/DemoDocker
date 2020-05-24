@@ -48,14 +48,14 @@ ________________________
 ### Traditional Application
 
 
-![Traditional Application ](https://raw.githubusercontent.com/gadekaranant/DemoDocker/gh-pages/img/dockersolution.png)
+![Traditional Application ](https://raw.githubusercontent.com/gadekaranant/DemoDocker/gh-pages/img/challenegs.jpg)
 
 ---
 
 ### Traditional Application Solution
 
 
-![Traditional Application Solution ](https://raw.githubusercontent.com/gadekaranant/DemoDocker/gh-pages/img/cargosolution.png)
+![Traditional Application Solution ](https://raw.githubusercontent.com/gadekaranant/DemoDocker/gh-pages/img/cdockersolution.png)
 
 ---
 
