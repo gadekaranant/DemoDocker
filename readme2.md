@@ -75,6 +75,12 @@ ________________________
 
 ### Docker History
 
+![Docker History](https://raw.githubusercontent.com/gadekaranant/DemoDocker/gh-pages/img/History.jpeg)
+
+---
+
+### Docker History
+
  - Solomon Hykes ([@solomonstre](https://twitter.com/solomonstre))
  - dotCloud (now Docker Inc)
  - March 2013
