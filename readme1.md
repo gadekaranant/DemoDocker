@@ -2,7 +2,7 @@
 
 ## Docker - Containerization Platform
 
-#### [P.Dr.V.V.P. College of Engineering, Ahmednagar](http://enggnagar.com/), 23 May 2020
+#### 
 
 ###### [Anant Gadekar](https://www.linkedin.com/in/anant-gadekar-22857319/) 
 ________________________
