@@ -2,9 +2,9 @@
 
 ## Docker - Containerization Platform
 
-#### Webinar at 
+#### 
 
-### [P.Dr. V. V. P. College of Engineering, Ahmednagar](http://enggnagar.com/)
+### 
 
 
 #### [Anant Gadekar](https://www.linkedin.com/in/anant-gadekar-22857319/) 
