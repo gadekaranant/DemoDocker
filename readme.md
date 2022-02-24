@@ -8,7 +8,7 @@
 
 
 #### [Anant Gadekar](https://www.linkedin.com/in/anant-gadekar-22857319/) 
-##### System Engineer(DevOps Engineer) at STL - Sterlite Technology Limited 
+##### Advisory system analyst at IBM India Pvt Ltd 
 #### RHCSA, RHCE, Docker, K8S, Openshift Administrator, AWS, Coporate Trainer
 ________________________
 
